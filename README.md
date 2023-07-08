@@ -35,5 +35,5 @@
 - 練習 SCSS 編譯
 - 匯入 Google Fonts 字體
 - 使用 `display: inline-block` 搭配 `vertical-align: middle` 使元件置中（[參考連結](https://www.casper.tw/css/2015/01/16/css-magic/)）
-- 使用 `map-get()` 將自定義變數匯入 SCSS
+- 使用 `map-get()` 將自定義變數匯入 SCSS（[參考連結](https://stackoverflow.com/questions/59530099/use-of-margin-and-padding-variables-in-sass-in-custom-class-bootstap-4)）
 - 使用 CSS 選擇器符號
