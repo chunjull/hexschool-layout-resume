@@ -2,14 +2,12 @@
 作業連結：[2023 夏季網頁切版直播班－第一週－個人履歷](https://rpg.hexschool.com/training/36/task/self)
 
 ## Table of contents
-- [六角學院 2023 夏季網頁切版直播班－第一週－個人履歷](#六角學院-2023-夏季網頁切版直播班第一週個人履歷)
-  - [Table of contents](#table-of-contents)
-  - [Practice goals](#practice-goals)
-  - [Overview](#overview)
-    - [DEMO Link](#demo-link)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
+- [Practice goals](#practice-goals)
+- [Overview](#overview)
+  - [DEMO Link](#demo-link)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
 ## Practice goals
 - 正確使用 container
@@ -37,5 +35,5 @@
 - 練習 SCSS 編譯
 - 匯入 Google Fonts 字體
 - 使用 `display: inline-block` 搭配 `vertical-align: middle` 使元件置中（[參考連結](https://www.casper.tw/css/2015/01/16/css-magic/)）
-- 使用 `map-get()` 將自定義變數匯入 SCSS
+- 使用 `map-get()` 將自定義變數匯入 SCSS（[參考連結](https://stackoverflow.com/questions/59530099/use-of-margin-and-padding-variables-in-sass-in-custom-class-bootstap-4)）
 - 使用 CSS 選擇器符號
