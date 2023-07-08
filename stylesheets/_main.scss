@@ -1,0 +1,145 @@
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* header */
+.header {
+    margin-top: map-get($spacers, 8);
+}
+
+h1, h2 {
+    font-size: $font-xxl;
+    letter-spacing: 15.36px;
+}
+
+h2 {
+    text-align: right;
+}
+
+.imgSection {
+    text-align: center;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+/* profile */
+
+.profile {
+    background-color: $color-background;
+    padding-top: map-get($spacers, 5);
+    padding-bottom: map-get($spacers, 5);
+}
+
+.profileContainer {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px 0 672px;
+
+    p {
+        font-size: $font-l;
+        max-width: 636px;
+    }
+}
+
+/* main */
+.main  {
+    max-width: 636px;
+    margin-top: map-get($spacers, 7);
+
+    h3 {
+        font-size: $font-xl;
+        color: $color-stress;
+        border-bottom: 3px solid $color-stress;
+        margin-bottom: map-get($spacers, 3);
+    }
+}
+
+.aboutSection {
+    margin-bottom: map-get($spacers, 4);
+
+    .aboutItem ~ .aboutItem {
+        margin-top: map-get($spacers, 1);
+    }
+
+    a {
+        font-size: $font-m;
+    }
+
+    & a:hover {
+        color: $color-secondary;
+    }
+}
+
+.educationSection, .workSection {
+    margin-bottom: map-get($spacers, 4);
+    .educationItem ~ .educationItem, .workItem ~ .workItem {
+        margin-top: map-get($spacers, 3);
+    }
+}
+
+.educationItem, .workItem {
+    span {
+        font-size: $font-s;
+        color: $color-secondary;
+    }
+
+    p {
+        font-size: $font-m;
+    }
+}
+
+.awardsList {
+    margin-top: map-get($spacers, 3);
+
+    .awardsItem {
+        font-size: $font-m;
+    }
+
+    .awardsItem ~ .awardsItem {
+        margin-top: map-get($spacers, 2);
+    }
+}
+
+/* footer */
+footer {
+    margin-top: map-get($spacers, 8);
+    background-color: $color-primary;
+    padding-top: map-get($spacers, 6);
+    padding-bottom: map-get($spacers, 6);
+
+    .mediaList {
+        text-align: center;
+        &::before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+    }
+
+    .mediaItem ~ .mediaItem {
+        margin-left: map-get($spacers, 4);
+    }
+
+    .mediaItem {
+        display: inline-block;
+        vertical-align: middle;
+        height: 64px;
+
+        & a:hover img {
+            opacity: .8;
+        }
+    }
+}
