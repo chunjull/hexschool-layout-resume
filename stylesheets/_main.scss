@@ -7,15 +7,15 @@
 /* header */
 .header {
     margin-top: map-get($spacers, 8);
-}
 
-h1, h2 {
-    font-size: $font-xxl;
-    letter-spacing: 15.36px;
-}
-
-h2 {
-    text-align: right;
+    h1, h2 {
+        font-size: $font-xxl;
+        letter-spacing: 15.36px;
+    }
+    
+    h2 {
+        text-align: right;
+    }
 }
 
 .imgSection {
