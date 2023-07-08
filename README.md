@@ -2,12 +2,14 @@
 作業連結：[2023 夏季網頁切版直播班－第一週－個人履歷](https://rpg.hexschool.com/training/36/task/self)
 
 ## Table of contents
--[Practice goals](#practice-goals)
--[Overview](#overview)
+- [六角學院 2023 夏季網頁切版直播班－第一週－個人履歷](#六角學院-2023-夏季網頁切版直播班第一週個人履歷)
+  - [Table of contents](#table-of-contents)
+  - [Practice goals](#practice-goals)
+  - [Overview](#overview)
     - [DEMO Link](#demo-link)
-- [My process](#my-process)
+  - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learn](#what-i-learned)
+    - [What I learned](#what-i-learned)
 
 ## Practice goals
 - 正確使用 container
