@@ -15,22 +15,16 @@
     
     h2 {
         text-align: right;
+        margin-left: auto;
+        max-width: 636px;
     }
 }
 
 .imgSection {
     text-align: center;
 
-    &::before {
-        content: "";
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-    }
-
     img {
         display: inline-block;
-        vertical-align: middle;
     }
 }
 
@@ -42,21 +36,17 @@
     padding-bottom: map-get($spacers, 5);
 }
 
-.profileContainer {
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 12px 0 672px;
-
-    p {
-        font-size: $font-l;
-        max-width: 636px;
-    }
+.container p {
+    margin-left: auto;
+    font-size: $font-l;
+    max-width: 636px;
 }
 
 /* main */
 .main  {
     max-width: 636px;
     margin-top: map-get($spacers, 7);
+    margin-bottom: map-get($spacers, 8);
 
     h3 {
         font-size: $font-xl;
@@ -114,19 +104,12 @@
 
 /* footer */
 footer {
-    margin-top: map-get($spacers, 8);
     background-color: $color-primary;
     padding-top: map-get($spacers, 6);
     padding-bottom: map-get($spacers, 6);
 
     .mediaList {
         text-align: center;
-        &::before {
-            content: "";
-            display: inline-block;
-            height: 100%;
-            vertical-align: middle;
-        }
     }
 
     .mediaItem ~ .mediaItem {
